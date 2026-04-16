@@ -89,6 +89,7 @@ public class CreatePojoClass1 {
 		
 		ObjectMapper obj_mapper = new ObjectMapper();
 		obj_mapper.writeValue(new File("./project.json"), pro);
+		Sysyem.out.println("fcgvbhn)
 		
 	}
 }
