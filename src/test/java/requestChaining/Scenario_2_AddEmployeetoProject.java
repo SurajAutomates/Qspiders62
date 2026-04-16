@@ -34,6 +34,8 @@ public class Scenario_2_AddEmployeetoProject {
 				.post("http://49.249.28.218:8091/employees");
 
 		emp_response.then().assertThat().statusCode(201).log().all();
+		
+		System.out.println("hi");
 
 	}
 }
